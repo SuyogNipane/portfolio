@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Source+Code+Pro:wght@200&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.sidebar {
+  background-color: rgb(219, 219, 225);
+  width: 250px;
+  font-family: "PT Serif", serif;
+}
+.sidebar nav {
+  padding: 25px;
+  padding-left: 0%;
+  padding-bottom: 0%;
+  height: 100vh;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+
+  padding: 15px;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background-color: rgb(187, 179, 179); */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+.infoContainer {
+  /* background-color: deeppink;  */
+
+  height: 68vh;
+  width: 80vw;
+  margin: 140px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "PT Serif", serif;
+  font-family: "Source Code Pro", monospace;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello {
+  font-size: 55px;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: serif;
+}
+.about {
+  font-size: 40px;
+}
+.moreabout {
+  font-size: 20px;
+  /*   */
+  font-family: "Fira sans", sans-serif;
+  margin-top: 15px;
+}
+.devPic img {
+  height: 78vh;
+}
+.buttons {
+  margin-top: 34px;
+}
+.buttons button {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: aliceblue;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 1px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+/* contact form css */
+.contactform{
+  padding-top: 240px;
+  font-family: "Fira sans", sans-serif;
+  justify-content: center; 
+}
+.contactform h1{
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+}

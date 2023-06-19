@@ -1,0 +1,21 @@
+.sidebar {
+    background-color: rgb(219, 219, 225);
+    width: 434px;
+    font-family: "PT Serif", serif;
+  }
+  .sidebar nav {
+    padding: 25px;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    height: 100vh;
+  }
+  .sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+  
+    padding: 15px;
+  }
+  .sidebar nav li a {
+    text-decoration: none;
+    color: black;
+  }
